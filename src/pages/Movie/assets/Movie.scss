@@ -1,0 +1,42 @@
+@import '../../../assets/scss/main.scss';
+
+
+
+.Movie-container{
+    background-color: $backgroundColor;
+}
+
+
+section{
+    padding: 10px;
+    width:80%;
+    margin:auto
+
+}
+.imageContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.image{
+    border-radius: 10px;
+    border:1px solid $primary;
+}
+
+
+.Title{
+    padding:40px;
+    text-align: center;
+}
+
+ .movie-info{
+    @include info;
+}
+
+@media Screen and (max-width: 768px){
+    .image{
+        width:150px;
+    }
+}

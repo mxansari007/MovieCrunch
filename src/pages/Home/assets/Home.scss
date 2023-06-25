@@ -1,0 +1,49 @@
+@import '../../../assets/scss/main.scss';
+@import '../../Movie/assets/Movie.scss';
+
+.container-home{
+    background-color: $backgroundColor;
+    min-height: 100vh;
+    display: flex;
+}
+
+.bio-data{
+    @include info;
+    max-width: 600px;
+    
+}
+
+.tech-stack{
+    margin-top: 25px;
+    img{
+        width:70px;
+    }
+    .techimage{
+        height: 70px;
+    }
+
+    .tech{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tech-item{
+        padding:10px;
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width:528px) {
+    .tech-stack{
+        img{
+            width:40px;
+        }
+        .techimage{
+            height: 40px;
+        }
+    }
+
+    .bio-data{
+        width:75%;
+    }
+}

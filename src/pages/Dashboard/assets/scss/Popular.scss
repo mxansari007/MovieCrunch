@@ -1,0 +1,32 @@
+$backgroundColor:#16161d;
+
+
+@mixin commonbtn{
+    font-weight: 700;
+    font-size: 1.5rem;
+
+} 
+
+
+
+.Carousel{
+    padding:50px;   
+
+    background-color: $backgroundColor;
+}
+
+
+
+
+.alice-carousel__prev-btn{
+   @include commonbtn();
+   &:hover{
+    color:aqua;
+   }
+    
+}
+
+.alice-carousel__next-btn{
+    @include commonbtn();
+}
+

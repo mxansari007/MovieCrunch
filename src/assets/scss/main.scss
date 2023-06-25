@@ -1,0 +1,72 @@
+$backgroundColor:#16161d;
+$primary:#29b6f6;
+$infoback:#002147;
+
+
+
+@mixin info{
+    background-color:$infoback ;
+    padding:30px;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    p{
+        margin-top:0.8rem;
+    }
+
+    #btn{
+        margin-top: 18px;
+        color:$primary;
+        font-weight: bold;
+    }
+    .subtitle{
+        color:$primary;
+        font-weight: bold;
+    }
+}
+
+
+
+
+*{
+    color:white;
+    font-family: 'Urbanist';
+}
+
+
+
+.container{
+    width:70%;
+    margin:auto;
+}
+
+@media screen and (max-width:768px) {
+    p{
+        font-size:0.9rem ;
+    }
+
+    h2{
+        font-family: 'Montserrat';
+        font-size: 1.2rem;
+        font-weight: 700;
+        color:$primary
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    
+
+
+    p{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-family: 'Montserrat';
+        font-size: 1.5rem;
+        font-weight: 700;
+        color:$primary
+    }
+
+}

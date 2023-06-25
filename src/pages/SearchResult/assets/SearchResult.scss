@@ -1,0 +1,13 @@
+@import '../../../assets/scss/main.scss';
+
+
+.search-container{
+    background-color: $backgroundColor;
+    min-height: 100vh;
+    margin-top: -100px;
+}
+
+.search-info{
+    @include info;  
+    padding : 25px;
+}

@@ -1,0 +1,33 @@
+$backgroundColor: #16161d;
+$primary:#29b6f6;
+
+.Container{
+    height: 50vh;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: $backgroundColor;
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+.searchInput{
+    width:50%;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    outline:1px solid $primary;
+    background:black;
+    &[type=text]:focus{
+        outline:3px solid $primary;
+    }
+}
+
+
+
+
+

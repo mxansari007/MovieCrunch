@@ -1,0 +1,11 @@
+@import '../../../assets/scss/main.scss';
+
+.categories-container{
+    background-color: $backgroundColor;
+    min-height: 100vh;
+    display: flex;
+}
+
+.info-categories{
+    @include info;
+}
